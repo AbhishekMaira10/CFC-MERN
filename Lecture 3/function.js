@@ -14,7 +14,7 @@ let out = arr.filter(function (item) {
 let arr2 = []
 
 function hey(name) {
-  console.log('Hurray ' + name)
+  console.log('Hurray  , ' + name)
 }
 
 arr2.push(hey)
