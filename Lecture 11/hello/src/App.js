@@ -20,15 +20,7 @@ function App() {
 
 
   return (
-    <div className="App" tabIndex={0} onKeyUp= {handleKeyUp} style={{
-      width: "100%",
-      height: "100vh",
-      display: "flex",
-      flexDirection: "column",
-      justifyContent: "center",
-      alignItems: "center",
-      background: "#999999"
-    }}>
+    <div className="App" tabIndex={0} onKeyUp= {handleKeyUp}>
 
       <div style={{
         width: "400px",
